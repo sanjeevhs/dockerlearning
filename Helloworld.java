@@ -1,4 +1,4 @@
-public class JavaAutoBuild{
+public class Helloworld.java{
 
 public static void main(String[] args){
 
