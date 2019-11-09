@@ -1,6 +1,6 @@
 #Docker ubuntu learning file
 
-FROM Java:8
+FROM java:8
 
 MAINTAINER sanjeev hs <sanjivhs16@gmail.com>
 
