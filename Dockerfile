@@ -6,8 +6,7 @@ MAINTAINER sanjeev hs <sanjivhs16@gmail.com>
 
 COPY JavaAutoBuild.java .
 RUN javac JavaAutoBuild.java
-COPY Helloworld.java .
-RUN javac Helloworld.java 
+COPY Helloworld1.java .
+RUN javac Helloworld1.java 
 
-CMD ["java", "JavaAutoBuild", "Hello world!!"]
-CMD ["Have a good Day"]
+CMD ["java", "JavaAutoBuild", "Hello world"]
